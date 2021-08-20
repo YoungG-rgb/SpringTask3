@@ -18,18 +18,12 @@ public class AppConfig {
     public static Wood3 getWood(Rabbit4 rabbit) {
         return new Wood3(rabbit);
     }
-    @Bean
-    public static Rabbit4 getRabbit(Duck5 duck) {
-        return new Rabbit4(duck);
-    }
+
     @Bean
     public static Duck5 getDuck(Egg6 egg) {
         return new Duck5(egg);
     }
-    @Bean
-    public static Egg6 getEgg(Needle7 needle) {
-        return new Egg6(needle);
-    }
+
     @Bean
     public static Needle7 getNeedle(Death8 death) {
         return new Needle7(death);
